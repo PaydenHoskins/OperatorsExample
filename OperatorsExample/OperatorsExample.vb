@@ -39,10 +39,11 @@ Module OperatorsExample
         Console.WriteLine(5 Mod 3) 'Print the remainder
         Console.WriteLine()
 
-        'exponant operator
+        'exponent operator
         Console.Write("5 ^ 3 = ") 'print a string
-        Console.WriteLine(5 ^ 3) 'Print the floating point quotient
+        Console.WriteLine(5 ^ 3) 'Print the exponent
         Console.WriteLine()
+
 
     End Sub
 
