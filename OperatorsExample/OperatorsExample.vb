@@ -7,7 +7,16 @@
 Module OperatorsExample
 
     Sub Main()
-        Console.Beep(262, 1000)
+        Console.Beep(329, 1000)
+        Console.Beep(293, 1000)
+        Console.Beep(261, 1000)
+        Console.Beep(293, 1000)
+        Console.Beep(329, 1000)
+        Console.Beep(329, 1000)
+        Console.Beep(329, 1000)
+        Console.Beep(293, 1000)
+        Console.Beep(293, 1000)
+        Console.Beep(293, 1000)
 
         'sum operator
         Console.Write("5 + 3 = ") 'print a string
