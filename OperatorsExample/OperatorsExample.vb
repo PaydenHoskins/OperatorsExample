@@ -43,6 +43,8 @@ Module OperatorsExample
         Console.Write("5 " & " + " & " 3 " & " = " & " 8 ") 'print a string
         Console.WriteLine()
         Console.WriteLine("YOU WERE THE CHOOSEN ONE ANAKIN! YOU WERE MENT TO DESTROY THE SITH NOT JOIN THEM, BRING BALANCE TO THE FORCE NOT TEAR IT APART!")
+        Console.WriteLine(StrDup(10, "+"))
+
 
 
     End Sub
