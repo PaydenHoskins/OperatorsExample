@@ -29,6 +29,16 @@ Module OperatorsExample
         Console.WriteLine(5 / 3) 'Print the floating point quotient
         Console.WriteLine()
 
+        'integer division operator
+        Console.Write("5 \ 3 = ") 'print a string
+        Console.WriteLine(5 \ 3) 'Print the quotient
+        Console.WriteLine()
+
+        'Modulus operator
+        Console.Write("5 mod 3 = ") 'print a string
+        Console.WriteLine(5 Mod 3) 'Print the remainder
+        Console.WriteLine()
+
     End Sub
 
 End Module
