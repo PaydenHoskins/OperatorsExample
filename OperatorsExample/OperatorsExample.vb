@@ -4,6 +4,9 @@
 'OperatorsExample
 'https://github.com/PaydenHoskins/OperatorsExample.git
 
+
+Option Compare Text
+
 Module OperatorsExample
 
     Sub Main()
@@ -71,7 +74,7 @@ Module OperatorsExample
         Console.WriteLine()
 
         'compare string
-        Console.Write(" is A the same as a ")
+        Console.Write("is " & Chr(34) & "A" & Chr(34) & " the same as " & Chr(34) & "a" & Chr(34) & "   ")
         Console.WriteLine("A" > "a")
         Console.WriteLine()
 
