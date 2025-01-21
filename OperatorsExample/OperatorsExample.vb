@@ -60,7 +60,15 @@ Module OperatorsExample
         Console.WriteLine(5 <> 3) 'print answer
         Console.WriteLine()
 
+        'compare string
+        Console.Write(" is A the same as a ")
+        Console.WriteLine("A" > "a")
+        Console.WriteLine()
 
+        'compare string
+        Console.Write(" A > B ")
+        Console.WriteLine("A" > "B")
+        Console.WriteLine()
 
         Console.Beep(329, 1000)
         Console.Beep(293, 1000)
