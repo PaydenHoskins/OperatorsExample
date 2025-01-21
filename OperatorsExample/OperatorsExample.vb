@@ -62,12 +62,17 @@ Module OperatorsExample
 
         'compare string
         Console.Write(" is A the same as a ")
-        Console.WriteLine("A" > "a")
+        Console.WriteLine("A" = "a")
         Console.WriteLine()
 
         'compare string
         Console.Write(" A > B ")
         Console.WriteLine("A" > "B")
+        Console.WriteLine()
+
+        'compare string
+        Console.Write(" is A the same as a ")
+        Console.WriteLine("A" > "a")
         Console.WriteLine()
 
         Console.Beep(329, 1000)
