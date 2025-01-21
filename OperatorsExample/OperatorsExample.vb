@@ -7,16 +7,7 @@
 Module OperatorsExample
 
     Sub Main()
-        Console.Beep(329, 1000)
-        Console.Beep(293, 1000)
-        Console.Beep(261, 1000)
-        Console.Beep(293, 1000)
-        Console.Beep(329, 1000)
-        Console.Beep(329, 1000)
-        Console.Beep(329, 1000)
-        Console.Beep(293, 1000)
-        Console.Beep(293, 1000)
-        Console.Beep(293, 1000)
+
 
         'sum operator
         Console.Write("5 + 3 = ") 'print a string
@@ -55,22 +46,32 @@ Module OperatorsExample
         Console.WriteLine(StrDup(10, "+"))
 
         'compare
-        Console.Write("5 < 3 =") 'print string
+        Console.Write("5 < 3 = ") 'print string
         Console.WriteLine(5 < 3) 'print answer
         Console.WriteLine()
 
         'compare
-        Console.Write(" does 5 = 3 =") 'print string
+        Console.Write(" does 5 = 3 = ") 'print string
         Console.WriteLine(5 = 3) 'print answer
         Console.WriteLine()
 
         'compare
-        Console.Write(" ia 5 not equal to 3 =") 'print string
+        Console.Write(" is 5 not equal to 3 = ") 'print string
         Console.WriteLine(5 <> 3) 'print answer
         Console.WriteLine()
 
 
 
+        Console.Beep(329, 1000)
+        Console.Beep(293, 1000)
+        Console.Beep(261, 1000)
+        Console.Beep(293, 1000)
+        Console.Beep(329, 1000)
+        Console.Beep(329, 1000)
+        Console.Beep(329, 1000)
+        Console.Beep(293, 1000)
+        Console.Beep(293, 1000)
+        Console.Beep(293, 1000)
     End Sub
 
 End Module
