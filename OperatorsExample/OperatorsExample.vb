@@ -54,7 +54,10 @@ Module OperatorsExample
         Console.WriteLine("YOU WERE THE CHOOSEN ONE ANAKIN! YOU WERE MENT TO DESTROY THE SITH NOT JOIN THEM, BRING BALANCE TO THE FORCE NOT LEAVE IT DARKNESS!")
         Console.WriteLine(StrDup(10, "+"))
 
-
+        'compare
+        Console.Write("5 < 3 =") 'print string
+        Console.WriteLine(5 < 3) 'print answer
+        Console.WriteLine()
 
     End Sub
 
