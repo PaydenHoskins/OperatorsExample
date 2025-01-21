@@ -59,6 +59,18 @@ Module OperatorsExample
         Console.WriteLine(5 < 3) 'print answer
         Console.WriteLine()
 
+        'compare
+        Console.Write(" does 5 = 3 =") 'print string
+        Console.WriteLine(5 = 3) 'print answer
+        Console.WriteLine()
+
+        'compare
+        Console.Write(" ia 5 not equal to 3 =") 'print string
+        Console.WriteLine(5 <> 3) 'print answer
+        Console.WriteLine()
+
+
+
     End Sub
 
 End Module
